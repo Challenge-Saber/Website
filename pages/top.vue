@@ -1,5 +1,5 @@
 <template>
 	<div>
-		<Leaderboard />
+		<h1>Top</h1>
 	</div>
 </template>
