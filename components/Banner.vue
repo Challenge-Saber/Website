@@ -1,10 +1,12 @@
 <template>
-	<div class="ml-16 mt-6">
-		<NuxtLink to="/">
-			<img class="max-h-16 float-left rounded-xl align-top" src="/BSC_Icon.png" alt="logo" />
-			<i class="ml-6 text-3xl inline-block hover:underline"
-				>Challenge<strong>Saber</strong></i
-			>
-		</NuxtLink>
-	</div>
+  <div class="md:ml-16 ml-3 flex mt-6">
+    <NuxtLink to="/">
+      <div className="flex items-center mb-2">
+        <img class="h-16 max-h-16 rounded-xl" src="/BSC_Icon.png" alt="logo" />
+        <i class="text-3xl ml-3 hover:underline"
+          >Challenge<strong>Saber</strong></i
+        >
+      </div>
+    </NuxtLink>
+  </div>
 </template>
